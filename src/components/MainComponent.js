@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Navbar, NavbarBrand } from 'reactstrap';
 import Menu from './components/menucomponent';
 import DishDetail from './components/dishdetailcomponent';
-import './App.css';
 import { DISHES } from './shared/dishes';
 
 class App extends Component {
@@ -13,7 +12,6 @@ class App extends Component {
     };
   }
   render() {
-
     return (
       <div classNameName="App my-2">
         <Navbar dark color="primary" >
